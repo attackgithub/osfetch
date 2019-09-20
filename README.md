@@ -24,7 +24,7 @@ You can further configure OSFetch to instead use an **image**, a custom ASCII fi
 
 ***
 
-# How to execute
+# How to execute osfetch
 
 > osfetch --help
 
