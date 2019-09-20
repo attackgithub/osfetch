@@ -2,7 +2,7 @@ PREFIX ?= /usr
 MANDIR ?= $(PREFIX)/share/man
 
 all:
-	@echo Run \'make install\' to install osfetch.
+	@echo Run \'make install\' to install OSFetch.
 
 install:
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
