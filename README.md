@@ -16,7 +16,7 @@ You can further configure OSFetch to instead use an **image**, a custom ASCII fi
 
 > sudo make install
 
-# OSFetch uninstallation
+## OSFetch uninstallation
 
 > cd osfetch
 
