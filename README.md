@@ -8,13 +8,15 @@ You can further configure OSFetch to instead use an **image**, a custom ASCII fi
 
 ***
 
-# How to install
+# Getting started
+
+## OSFetch installation
 
 > cd osfetch
 
 > sudo make install
 
-# How to uninstall
+# OSFetch uninstallation
 
 > cd osfetch
 
