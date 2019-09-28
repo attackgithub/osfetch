@@ -32,3 +32,4 @@ echo -e ""
 echo -e "  -i  Installation mode."
 echo -e "  -u  Uninstallation mode."
 echo -e ""
+exit
