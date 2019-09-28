@@ -41,10 +41,8 @@ LANG=C
 # Fix issues with gsettings.
 export GIO_EXTRA_MODULES="/usr/lib/x86_64-linux-gnu/gio/modules/"
 
-# osfetch default config.
+# OSFetch default config.
 read -rd '' config <<'EOF'
-# See this wiki page for more info:
-# https://github.com/osfetch/osfetch/wiki/Customizing-Info
 print_info() {
     info title
     info underline
