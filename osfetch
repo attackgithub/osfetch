@@ -2,6 +2,7 @@
 # vim: noai:ts=4:sw=4:expandtab
 # shellcheck source=/dev/null
 # shellcheck disable=2009
+
 # MIT License
 
 # Copyright (C) 2019, Entynetproject. All Rights Reserved.
