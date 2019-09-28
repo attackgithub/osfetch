@@ -4355,7 +4355,7 @@ decode_url() {
 usage() { printf "%s" "\
 Usage: osfetch func_name --option \"value\" --option \"value\"
 
-OSFetch is a CLI system information tool written in BASH. osfetch
+OSFetch is a CLI system information tool written in bash. OSFetch
 displays information about your system next to an image, your OS logo,
 or any ASCII file of your choice.
 
