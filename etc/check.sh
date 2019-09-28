@@ -30,7 +30,7 @@ sleep 0
 exit
 else
 cd ~
-git clone https://github.com/entynetproject/osfetch
+git clone https://github.com/entynetproject/osfetch.git
 cd ~/osfetch
 exit
 fi
