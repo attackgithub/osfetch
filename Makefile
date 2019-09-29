@@ -6,8 +6,8 @@ all:
 	@echo Run \'make install\' to install OSFetch.
 
 install:
-	@chmod 755 etc/check.sh
-	@bash etc/check.sh -i
+	@chmod 755 etc/setup.sh
+	@bash etc/setup.sh -i
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
 	@mkdir -p $(DESTDIR)$(MANDIR)/man1
 	@cp -p osfetch $(DESTDIR)$(PREFIX)/bin/osfetch
@@ -15,7 +15,7 @@ install:
 	@chmod 755 $(DESTDIR)$(PREFIX)/bin/osfetch
 
 uninstall:
-	@chmod 755 etc/check.sh
-	@bash etc/check.sh -u
+	@chmod 755 etc/setup.sh
+	@bash etc/setup.sh -u
 	@rm -rf $(DESTDIR)$(PREFIX)/bin/osfetch
 	@rm -rf $(DESTDIR)$(MANDIR)/man1/osfetch.1*
