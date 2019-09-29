@@ -65,7 +65,7 @@ exit
 fi
 fi
 
-echo -e "Usage: ./check.sh [OPTION...]"
+echo -e "Usage: ./setup.sh [OPTION...]"
 echo -e "Copyright (C) 2019, Entynetproject. All Rights Reserved."
 echo -e
 echo -e "  -i  Installation mode."
