@@ -1,5 +1,6 @@
 {
 #! /bin/bash
+sleep 0
 } &> /dev/null
 
 # MIT License
