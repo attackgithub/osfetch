@@ -1,6 +1,5 @@
 PREFIX ?= /usr
 MANDIR ?= $(PREFIX)/share/man
-HOMEDIR ?= ~
 
 all:
 	@echo Run \'make install\' to install OSFetch.
@@ -19,3 +18,4 @@ uninstall:
 	@bash etc/setup.sh -u
 	@rm -rf $(DESTDIR)$(PREFIX)/bin/osfetch
 	@rm -rf $(DESTDIR)$(MANDIR)/man1/osfetch.1*
+	@rm -r ~/osfetch
