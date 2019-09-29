@@ -1,6 +1,6 @@
 # Operating System Fetch (OSFetch)
 
-<h4 align="center"><img src="https://user-images.githubusercontent.com/54115104/65824629-cc1c4800-e274-11e9-9413-36b8df1d5503.jpeg">
+<h4 align="center"><img src="https://user-images.githubusercontent.com/54115104/65824708-dbe85c00-e275-11e9-883d-aa26cde13d0d.jpeg">
 </h4>
 
 
