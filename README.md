@@ -1,7 +1,7 @@
 # Operating System Fetch (OSFetch)
 
 <h3 align="center"><img src="https://user-images.githubusercontent.com/54115104/65824806-739a7a00-e277-11e9-91a4-54a4b46387a3.jpeg" alt="logo" height="100px"></h3>
-<p align="center">A command-line system information tool written in bash 3.2+</p>
+<p align="center">A command-line system information tool written in **bash 3.2+**</p>
 
 ***
 
