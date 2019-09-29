@@ -22,6 +22,23 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
+RSA="\033[31m"
+YSA="\033[1;93m"
+CEA="\033[0m"
+WHS="\033[0;97m"
+
+WHO="$( whoami )"
+
+if [[ "$WHO" != "root" ]]
+then
+sleep 1
+echo -e "$RS"run it as"$CE" "$YS"root"$CE"
+sleep 1
+echo -e "$RS"or use"$CE" "$YS"sudo"$CE"
+sleep 1
+exit
+fi
+
 if [[ $1 = "-i" ]]
 then
 if [[ -d ~/osfetch ]]
