@@ -12,6 +12,5 @@ install:
 	@chmod 755 $(DESTDIR)$(PREFIX)/bin/osfetch
 
 uninstall:
-        @rm -rf $(DESTDIR)$(PREFIX)~/osfetch
 	@rm -rf $(DESTDIR)$(PREFIX)/bin/osfetch
 	@rm -rf $(DESTDIR)$(MANDIR)/man1/osfetch.1*
