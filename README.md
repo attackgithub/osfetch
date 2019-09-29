@@ -1,5 +1,9 @@
 # Operating System Fetch (OSFetch)
 
+<h4 align="center"><img src="">
+
+***
+
 OSFetch is a **CLI** system information tool written in **bash**. OSFetch displays information about your system next to an **image**, your **OS logo**, or any ASCII file of your choice.
 
 OSFetch is a **command-line** system information tool written in **bash 3.2+**. OSFetch displays information about your operating system, **software** and **hardware** in an aesthetic and visually pleasing way. The overall purpose of OSFetch is to be used in screen-shots of your system. OSFetch shows the information other people want to see. There are other tools available for proper system statistic/diagnostics. The information by default is displayed alongside your **operating system's logo**. 
@@ -31,7 +35,7 @@ You can further configure OSFetch to instead use an **image**, a custom ASCII fi
 ```
 Usage: osfetch func_name --option "value" --option "value"
 
-OSFetch is a CLI system information tool written in BASH. OSFetch
+OSFetch is a CLI system information tool written in bash. OSFetch
 displays information about your system next to an image, your OS logo,
 or any ASCII file of your choice.
 
@@ -249,9 +253,6 @@ OTHER:
 
 DEVELOPER:
     --gen-man                   Generate a manpage for osfetch in your PWD. (Requires GNU help2man)
-
-
-Report bugs to https://github.com/osfetch/osfetch/issues
 ```
 
 ***
