@@ -2,6 +2,23 @@
 
 <h3 align="center"><img src="https://user-images.githubusercontent.com/54115104/65824806-739a7a00-e277-11e9-91a4-54a4b46387a3.jpeg" alt="logo" height="100px"></h3>
 <p align="center">A command-line system information tool written in bash 3.2+</p>
+<p align="center">
+  <a href="http://entynetproject.simplesite.com/">
+    <img src="https://img.shields.io/badge/entynetproject-Ivan%20Nikolsky-blue.svg">
+  </a> 
+  <a href="https://github.com/entynetproject/osfetch/releases">
+    <img src="https://img.shields.io/github/release/entynetproject/osfetch.svg">
+  </a>
+  <a href="https://github.com/entynetproject/osfetch/issues?q=is%3Aissue+is%3Aclosed">
+      <img src="https://img.shields.io/github/issues/entynetproject/osfetch.svg">
+  </a>
+  <a href="https://github.com/entynetproject/osfetch/wiki">
+      <img src="https://img.shields.io/badge/wiki%20-osfetch-lightgrey.svg">
+ </a>
+  <a href="https://twitter.com/entynetproject">
+    <img src="https://img.shields.io/badge/twitter-entynetproject-blue.svg">
+ </a>
+</p>
 
 ***
 
