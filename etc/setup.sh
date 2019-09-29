@@ -60,8 +60,9 @@ then
 if [[ -d ~/osfetch ]]
 then
 {
-cd && rm -r ~/osfetch
+cd && rm -r ~/osfetch && cd ~
 } &> /dev/null
+cd ~
 exit
 else
 sleep 0
