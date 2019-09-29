@@ -7,7 +7,7 @@ all:
 
 install:
 	@chmod 755 etc/check.sh
-	@etc/check.sh -i
+	@bash etc/check.sh -i
 	@mkdir -p $(DESTDIR)$(PREFIX)/bin
 	@mkdir -p $(DESTDIR)$(MANDIR)/man1
 	@cp -p osfetch $(DESTDIR)$(PREFIX)/bin/osfetch
@@ -16,6 +16,6 @@ install:
 
 uninstall:
 	@chmod 755 etc/check.sh
-	@etc/check.sh -u
+	@bash etc/check.sh -u
 	@rm -rf $(DESTDIR)$(PREFIX)/bin/osfetch
 	@rm -rf $(DESTDIR)$(MANDIR)/man1/osfetch.1*
