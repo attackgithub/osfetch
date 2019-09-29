@@ -1,7 +1,4 @@
-{
 #! /bin/bash
-sleep 0
-} &> /dev/null
 
 # MIT License
 
@@ -62,13 +59,13 @@ if [[ $1 = "-u" ]]
 then
 if [[ -d ~/osfetch ]]
 then
-{
-cd && rm -r ~/osfetch && cd ~
-} &> /dev/null
-cd ~
+sleep 0
 exit
 else
-sleep 0
+cd
+{
+git clone https://github.com/entynetproject/osfetch.git
+} &> /dev/null
 exit
 fi
 fi
