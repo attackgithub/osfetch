@@ -267,13 +267,13 @@ IMAGE:
     --clean                     Delete cached files and thumbnails.
 
 OTHER:
-    --config /path/to/config    Specify a path to a custom config file
-    --config none               Launch the script without a config file
+    --config /path/to/config    Specify a path to a custom config file.
+    --config none               Launch the script without a config file.
     --no_config                 Don't create the user config file.
     --print_config              Print the default config file to stdout.
     --stdout                    Turn off all colors and disables any ASCII/image backend.
-    --help                      Print this text and exit
-    --version                   Show osfetch version
+    --help                      Print this help and exit.
+    --version                   Show OSFetch version.
     -v                          Display error messages.
     -vv                         Display a verbose log for error reporting.
 
