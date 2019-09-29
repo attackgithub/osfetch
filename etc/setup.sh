@@ -40,7 +40,7 @@ if [[ $1 = "-u" ]]
 then
 if [[ -d ~/osfetch ]]
 then
-rm -r ~/osfetch
+cd && rm -r ~/osfetch
 exit
 else
 sleep 0
