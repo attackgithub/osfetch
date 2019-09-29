@@ -729,7 +729,7 @@ ascii_bold="on"
 
 
 # Image loop
-# Setting this to on will make osfetch redraw the image constantly until
+# Setting this to on will make OSFetch redraw the image constantly until
 # Ctrl+C is pressed. This fixes display issues in some terminal emulators.
 #
 # Default:  'off'
@@ -749,8 +749,6 @@ thumbnail_dir="${XDG_CACHE_HOME:-${HOME}/.cache}/thumbnails/osfetch"
 # Values:   'normal', 'fit', 'fill'
 # Flag:     --crop_mode
 #
-# See this wiki page to learn about the fit and fill options.
-# https://github.com/osfetch/osfetch/wiki/What-is-Waifu-Crop%3F
 crop_mode="normal"
 
 # Crop offset
