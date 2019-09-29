@@ -254,7 +254,7 @@ OTHER:
     -vv                         Display a verbose log for error reporting.
 
 DEVELOPER:
-    --gen-man                   Generate a manpage for osfetch in your PWD. (Requires GNU help2man)
+    --gen-man                   Generate a manpage for OSFetch in your PWD. (Requires GNU help2man)
 ```
 
 ***
