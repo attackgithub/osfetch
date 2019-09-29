@@ -36,21 +36,21 @@ You can further configure OSFetch to instead use an **image**, a custom ASCII fi
 
 > cd osfetch
 
-- `make install`
 - **macOS**: `make PREFIX=/usr/local install`
 - **Haiku**: `make PREFIX=/boot/home/config/non-packaged install`
 - **OpenIndiana**: `gmake install`
 - **MinGW/MSys**: `make -i install`
+- **Other**: `make install`
 
 ## OSFetch uninstallation
 
 > cd osfetch
 
-- `make uninstall`
 - **macOS**: `make PREFIX=/usr/local uninstall`
 - **Haiku**: `make PREFIX=/boot/home/config/non-packaged uninstall`
 - **OpenIndiana**: `gmake uninstall`
 - **MinGW/MSys**: `make -i uninstall`
+- **Other**: `make uninstall`
 
 ***
 
