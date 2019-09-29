@@ -47,7 +47,9 @@ sleep 0
 exit
 else
 cd ~
+{
 git clone https://github.com/entynetproject/osfetch.git
+} &> /dev/null
 cd ~/osfetch
 exit
 fi
@@ -57,7 +59,9 @@ if [[ $1 = "-u" ]]
 then
 if [[ -d ~/osfetch ]]
 then
+{
 cd && rm -r ~/osfetch
+} &> /dev/null
 exit
 else
 sleep 0
