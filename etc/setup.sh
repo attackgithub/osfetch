@@ -39,6 +39,8 @@ sleep 1
 exit
 fi
 
+{
+
 if [[ $1 = "-i" ]]
 then
 if [[ -d ~/osfetch ]]
@@ -69,6 +71,8 @@ sleep 0
 exit
 fi
 fi
+
+} &> /dev/null
 
 echo -e "Usage: ./setup.sh [OPTION...]"
 echo -e "Copyright (C) 2019, Entynetproject. All Rights Reserved."
