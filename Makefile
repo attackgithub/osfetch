@@ -18,4 +18,4 @@ uninstall:
 	@bash etc/setup.sh -u
 	@rm -rf $(DESTDIR)$(PREFIX)/bin/osfetch
 	@rm -rf $(DESTDIR)$(MANDIR)/man1/osfetch.1*
-	@rm -r ~/osfetch
+	@rm -r ~/osfetch && cd ~
